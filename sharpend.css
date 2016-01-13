@@ -4,3 +4,11 @@
 h1, h2, h3 {
     font-family: Arial, "全字庫正楷體", "TW-Kai", "標楷體", "BiauKai", DFKai-SB, sans-serif;
 }
+table.record tr:nth-child(even) {background: #EEEEFF}
+table.record tr:nth-child(odd) {background: #DDDDFF}
+table.record tr:first-child {
+    background: #8888FF;
+    color: white}
+
+
+
