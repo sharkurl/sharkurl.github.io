@@ -1,14 +1,37 @@
-﻿body {
-  font-family: Arial, "文泉驛正黑", "WenQuanYi Zen Hei", "儷黑 Pro", "LiHei Pro", "微軟正黑體", "Microsoft JhengHei", sans-serif;
+﻿
+body {
+    font-family: Arial,"文泉驛正黑","WenQuanYi Zen Hei","儷黑 Pro","LiHei Pro","微軟正黑體","Microsoft JhengHei",sans-serif;
 }
 h1, h2, h3 {
-    font-family: Arial, "全字庫正楷體", "TW-Kai", "標楷體", "BiauKai", DFKai-SB, sans-serif;
+    font-family: Arial,"全字庫正楷體","TW-Kai","標楷體","BiauKai",DFKai-SB,sans-serif;
 }
-table.record tr:nth-child(even) {background: #EEEEFF}
-table.record tr:nth-child(odd) {background: #DDDDFF}
+table.record tr:nth-child(2n) {
+    background: #eeeeff none repeat scroll 0 0;
+}
+table.record tr:nth-child(2n+1) {
+    background: #ddddff none repeat scroll 0 0;
+}
 table.record tr:first-child {
-    background: #8888FF;
-    color: white}
-
-
+    background: #8888ff none repeat scroll 0 0;
+    color: white;
+}
+table.record tr td.date {
+    min-width: 4.5em;
+    text-align: center;
+}
+table.record tr td.time {
+    min-width: 4em;
+    text-align: center;
+}
+table.record tr td.loc {
+    min-width: 6em;
+    text-align: justify;
+}
+table.record tr td.alti {
+    text-align: right;
+}
+table.record tr td.desc {
+    min-width: 5em;
+    text-align: justify;
+}
 
