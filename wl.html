@@ -55,6 +55,7 @@
                     dataType: "json",
                     // url: "https://data.wra.gov.tw/Service/OpenData.aspx?format=json&id=2D09DB8B-6A1B-485E-88B5-923A462F475C", //test json version w/ CORS
                     //dataType: 
+                    headers: {"Origin":"https://sharkurl.github.io"},
                     success: function (data) {
                         alert("OK");
                         //  $("#result").html(data);
@@ -63,6 +64,7 @@
                         alert(xhr.status);
                         alert("error");
                     }
+
                 });
             });
 
